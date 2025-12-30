@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* If you want to set a global background, do it like this: */
+:root {
+  background-color: #111827; /* This is the hex for gray-900 */
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: block; /* Important: stops the 'flex center' default Vite behavior */
+  background-color: #0f172a;
+  font-family: sans-serif;
+}
